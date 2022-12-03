@@ -1,0 +1,13 @@
+course = "True"
+students = 5000
+rating = 4.6
+is_published = True
+students = float(students)
+is_published = str(is_published)
+course = bool(course)
+
+print(type(is_published))
+try:
+     print(float(course))
+except:
+     print("Invalid Input")
